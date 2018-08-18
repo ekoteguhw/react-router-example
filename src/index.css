@@ -1,0 +1,84 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+}
+
+.nav-bar {
+  text-align: center;
+  width: 100%;
+  background-color: #111;
+}
+
+.nav-bar ul {
+  display: inline-block;
+}
+
+.nav-bar li {
+  float: left;
+}
+
+.nav-bar li + li {
+  margin-left: 20px;
+}
+
+.nav-bar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-bar li a:hover {
+  background-color: #eaeaea;
+  color: #111;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  padding: 10px;
+  margin-left: 40px;
+}
+
+.persons {
+  list-style: none;
+  padding: 10px;
+  border: 1px solid #111;
+}
+
+.persons li {
+  padding: 10px;
+  border: 1px solid #111;
+  background-color: #ddd;
+  margin: 5px 0px 5px 0px;
+}
+
+.persons li a {
+  text-decoration: none;
+  color: #111;
+}
+
+input[type='text'] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0px 10px 0px;
+  box-sizing: border-box;
+  border: 1px solid #111;
+}
+
+.btn-back {
+  padding: 10px;
+  width: 30%;
+  text-align: center;
+  color: #fff;
+  background-color: #ddd;
+  border: 1px solid #111;
+}
+
+.btn-back a {
+  text-decoration: none;
+  color: #111;
+}
